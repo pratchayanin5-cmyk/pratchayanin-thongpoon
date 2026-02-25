@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 #import model
 loan_model = pickle.load(open("loan_model.sav",'rb'))
 ridingmower_model = pickle.load(open("RidingMowers_model.sav",'rb'))
-stress_model = pickel.load(open("stress_model.sav",'rb'))
+stress_model = pickle.load(open("stress_model.sav",'rb'))
  
  
 with st.sidebar:
